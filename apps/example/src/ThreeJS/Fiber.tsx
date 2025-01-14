@@ -5,6 +5,7 @@ import { useFrame, useThree } from "@react-three/fiber";
 
 import { FiberCanvas } from "./components/FiberCanvas";
 import useControls from "./components/OrbitControl";
+import { WebGPUPostProcessing } from "./components/PostProcessing";
 
 const boxData = [
   { position: [-4, 0, -4], color: "red" },
@@ -133,6 +134,7 @@ export const Fiber = () => {
   return (
     <View style={{ flex: 1 }} {...events}>
       <FiberCanvas style={{ flex: 1 }}>
+        <WebGPUPostProcessing />
         <OrbitControls />
         <Scene />
       </FiberCanvas>

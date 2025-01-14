@@ -4436,7 +4436,7 @@ __metadata:
     react-native-wgpu: "*"
     react-test-renderer: 18.2.0
     teapot: ^1.0.0
-    three: 0.168.0
+    three: ^0.172.0
     typegpu: ^0.2.0
     typescript: 5.0.4
     wgpu-matrix: ^3.0.2
@@ -12750,10 +12750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"three@npm:0.168.0":
-  version: 0.168.0
-  resolution: "three@npm:0.168.0"
-  checksum: 1f186006ad5c8df348d4a2bcdccc078f0454f196b8ccc450d405cdf8c88436ff773e545725ef1122891b5552b5cf03add8394288b58985a0c3ebe66b588cab2f
+"three@npm:^0.172.0":
+  version: 0.172.0
+  resolution: "three@npm:0.172.0"
+  checksum: 2efd90e0c7701fc55440f7932673e38ec09d23ba338f035fc91f1981e1af4b3925e7a59533ebe35994404774a38f1d1c27f0cb5a2744f1ebf3df0ad962b50280
   languageName: node
   linkType: hard
 
